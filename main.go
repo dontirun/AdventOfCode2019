@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	Day1 "./day1"
+	day1 "./day1"
 )
 
-var days = []func(){Day1.Solutions}
+var days = []func(){day1.Solutions}
 
 func main() {
 	for day, solution := range days {
