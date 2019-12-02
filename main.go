@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	day1 "./day1"
-	day2 "./day2"
+	day1 "github.com/dontirun/AdventOfCode2019/day1"
+	day2 "github.com/dontirun/AdventOfCode2019/day2"
 )
 
 var days = []func(){day1.Solutions, day2.Solutions}
