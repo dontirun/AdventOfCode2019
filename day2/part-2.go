@@ -23,7 +23,7 @@ func partTwo() {
 }
 
 //Checks if the input noun and verb generate the desired output
-func checkDesiredOutput(programValues []int, noun int, verb int) (isDesiredOutput bool) {
+func checkDesiredOutput(programValues []int, noun int, verb int) bool {
 	currentProgramValues := make([]int, len(programValues))
 	copy(currentProgramValues, programValues)
 	currentProgramValues[1] = noun

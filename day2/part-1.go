@@ -45,7 +45,7 @@ func parseProgramValues() (programValues []int) {
 
 // Edits the slice containing the program values
 func editValue(position int, programValues *[]int) {
-	var pv = *programValues
+	pv := *programValues
 	switch {
 	case pv[position] == 1:
 		pv[pv[position+3]] = pv[pv[position+1]] + pv[pv[position+2]]
